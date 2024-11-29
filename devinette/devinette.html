@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de Devinettes de Mots</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Jeu de Devinettes de Mots</h1>
+    </header>
+    <main>
+        <div class="word-display" id="word-display"></div>
+        <div class="input-section">
+            <input type="text" id="letter-input" maxlength="1" placeholder="Entrez une lettre">
+            <button id="guess-button">Deviner</button>
+        </div>
+        <div class="result" id="result-text"></div>
+        <div class="attempts" id="attempts-text"></div>
+        <button id="reset-button">Réinitialiser le jeu</button>
+    </main>
+    <footer>
+        <p>&copy; 2023 Jeu de Devinettes de Mots</p>
+    </footer>
+    <script src="devinette.js"></script>
+</body>
+</html>
