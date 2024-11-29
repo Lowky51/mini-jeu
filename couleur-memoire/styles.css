@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: #304c89;
+    background-color: #696550;
     color: #fff;
     padding: 20px 0;
 }
@@ -75,39 +75,39 @@ main {
 }
 
 #red {
-    background-color: #e8e5da;
+    background-color: red;
 }
 
 #blue {
-    background-color: #9eb7e5;
+    background-color: blue;
 }
 
 #green {
-    background-color: #648de5;
+    background-color: green;
 }
 
 #darkgreen {
-    background-color: #304c89;
+    background-color: darkgreen;
 }
 
 #purple {
-    background-color: #cdc392;
+    background-color: purple;
 }
 
 #orange {
-    background-color: #e8e5da;
+    background-color: orange;
 }
 
 #violet {
-    background-color: #9eb7e5;
+    background-color: violet;
 }
 
 #darkblue {
-    background-color: #648de5;
+    background-color: darkblue;
 }
 
 #brown {
-    background-color: #304c89;
+    background-color: brown;
 }
 
 .result {
@@ -124,7 +124,7 @@ button {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color: #304c89;
+    background-color: #696550;
     color: #fff;
     transition: background-color 0.3s;
 }
@@ -134,7 +134,7 @@ button:hover {
 }
 
 footer {
-    background-color: #304c89;
+    background-color: #696550;
     color: #fff;
     text-align: center;
     padding: 10px 0;

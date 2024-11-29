@@ -1,13 +1,15 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f4f4f4;
+    background: linear-gradient(135deg, #cdc392 0%, #e8e5da 100%);
+    color: black;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 header {
-    background-color: #333;
+    background-color: #696550;
     color: #fff;
     padding: 20px 0;
 }
@@ -31,13 +33,15 @@ button {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color: #333;
+    background-color: #696550;
     color: #fff;
     transition: background-color 0.3s;
+    border: 2px solid #cdc392;
 }
 
 button:hover {
-    background-color: #555;
+    background-color: #648de5;
+    border-color: #e8e5da;
 }
 
 .result {
@@ -47,10 +51,11 @@ button:hover {
 
 #result-text {
     font-weight: bold;
+    color: black;
 }
 
 footer {
-    background-color: #333;
+    background-color: #696550;
     color: #fff;
     text-align: center;
     padding: 10px 0;

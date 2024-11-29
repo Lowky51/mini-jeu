@@ -30,7 +30,7 @@ function renderCards() {
 }
 
 function flipCard(card) {
-    if (shouldReturn.call(this, card)) return;
+    if (shouldReturn(card)) return;
 
     card.flipped = true;
     flippedCards.push(card);
